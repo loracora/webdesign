@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Decker Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+	 (function($) {
+       $(window).load(function(){
+        $('.flexslider').flexslider({
+         animation: "slide",
+         prevText: "",
+         nextText: "", 
+         start: function(slider){
+         $('body').removeClass('loading');
+         }
+        });
+      });
+    })(jQuery);
+	</script>
+    <link href="css/styling.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body style="background-color:#3d3d3f;">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container">
+	<div class="navbar-header">
+    	<button type="button" class="newnavbutton" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><img src="images/menu-icon.png" width="25" height="25"></button>
+		<a href="#" id="logo"><img src="images/logo.png" height: 25px; width: 192px; /></a>
+  	</div>
+	<div class="collapse navbar-collapse no-transition" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+    	<li><a href="#">Browse</a></li>
+    	<li><a href="#">About</a></li>
+    	<li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Log In<b class="caret"></b></a>
+        		<ul class="dropdown-menu">
+        				<form action="#" method="post">
+          				<li><input type="email" class="form-control" placeholder="Email"></li>
+          				<li><input type="password" class="form-control" placeholder="Password"></li>
+          				<li><input type="submit" name="Log In" value="Log In"></li>
+          				</form>
+ 				</ul>
+        </li>
+    </ul>
+	</div>
+	</div>
+	</nav>
+<div class="flexslider">
+  <ul class="slides">
+    <li class="frame"><div class="centered">
+      <img src="images/banner01.png" /></div>
+      <p class="flex-caption">First world war <br /> in posters <br /> <a href="#">view the collection </a> </p>
+    </li>
+    <li class="frame"> <div class="centered">
+      <img src="images/banner02.png" /></div>
+      <p class="flex-caption">Soviet Impressionist <br /> Painting  <br /> <a href="#">view the collection</a> </p>
+    </li>
+    <li class="frame"><div class="centered">
+      <img src="images/banner03.png" /></div>
+      <p class="flex-caption">contemporary australian <br /> aboriginal art  <br /> <a href="#">view the collection</a> </p>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+<div class="main">
+	<div class="row">
+	<div class="col-xs-12">
+		<div class="row">
+			<div class="col-sm-4 col-xs-12">
+				<div class="search-column">
+					<div class="search-heading"> SEARCH THE ARCHIVES</div>
+					<input class="search" name "search" placeholder="Title, Author, Keyword, or ISBN" />
+					<a href="search.html"><button class="searchbutton">SEARCH</button></a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<div class="periresult">NEWS</div>
+				<div class="result">
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="images/news01.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-8">
+							<a href="#"><div class="title">Sideshow Attractions</div></a>
+							<h2><span class="identifier">Dec 10 2013</span></h2>
+							<h2><span class="info"> This week's white-board display is inspired by MICA's new exhibit "The Amazing Johnny Eck" which opens this Friday in Fox's Decker Gallery and runs through March 16, 2014.</span></h2>
+							<button class="sendbutton">See More</button>
+						</div>
+					</div>
+				</div>
+				<div class="imageresult">LINK</div>
+				<div class="result">
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="images/news02.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-8">
+							<a href="#"><div class="title">The Pencil</div></a>
+							<h2><span class="identifier">Dec 4 2013</span></h2>
+							<h2><span class="identifier">nytimes.com</span></h2>
+							<h2><span class="info"> At a picturesque century-old factory, Count Anton-Wolfgang von Faber-Castell is the eighth in a long line carrying on the family name in the pencil business.</span></h2>
+							<button class="sendbutton">See More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+<footer>
+	<div class="footerbox">
+	Copyright 2013 SirsiDynix - Portfolio Version 4.3 (29670)
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

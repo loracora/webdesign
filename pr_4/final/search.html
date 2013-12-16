@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Decker Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styling.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body style="background-color:#3d3d3f;">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container">
+	<div class="navbar-header">
+    	<button type="button" class="newnavbutton" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><img src="images/menu-icon.png" width="25" height="25"></button>
+		<a href="index.html" id="logo"><img src="images/logo.png" height: 25px; width: 192px; /></a>
+  	</div>
+	<div class="collapse navbar-collapse no-transition" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+    	<li><a href="#">Browse</a></li>
+    	<li><a href="#">About</a></li>
+    	<li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Log In<b class="caret"></b></a>
+        		<ul class="dropdown-menu">
+        				<form action="#" method="post">
+          				<li><input type="email" class="form-control" placeholder="Email"></li>
+          				<li><input type="password" class="form-control" placeholder="Password"></li>
+          				<li><input type="submit" name="Log In" value="Log In"></li>
+          				</form>
+ 				</ul>
+        </li>
+    </ul>
+	</div>
+	</div>
+	</nav>
+<div class="container">
+<div class="main">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="search-column">
+				<div class="row">
+				<div class="col-md-8">
+					<input class="search" name "search" placeholder="Title, Author, Keyword, or ISBN" />
+				</div>
+				<div class="col-md-4">
+					<a href="search.html"><button class="searchbutton">SEARCH</button></a>					
+				</div>
+				</div>
+				</div>
+		</div>
+	</div>
+	<div class="row">
+	<div class="col-xs-12">
+		<div class="row">
+		<div class="col-xs-12 col-sm-4 col-md-3">
+			<div class="search-column">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="searchnav">Limit Search Results:</div>
+						<div class="searchnav">MEDIA</div>
+					</div>
+				</div>
+				<div class="row">
+				<div class="col-xs-6" style="padding-right: 5px;">
+				<a href="books.html"><button class="booksbutton">BOOKS</button></a>
+				<button class="imagesbutton">IMAGES</button>
+				</div>
+				<div class="col-xs-6" style="padding-left: 5px;">
+				<button class="peributton">PERIODICALS</button>
+				<button class="vidbutton">VIDEOS</button>
+				</div>
+				</div>
+				<div class="searchnav">DATE</div>
+				<div class="searchnav">1500 ---- 2013</div>
+				<div class="searchnav">LANGUAGE</div>
+				<div class="scrollbox">
+					<ul>
+						<li><a href="#">English</a></li>
+						<li><a href="#">Spanish</a></li>
+						<li><a href="#">Korean</a></li>
+						<li><a href="#">French</a></li>
+						<li><a href="#">Chinese</a></li>
+						<li><a href="#">German</a></li>
+						<li><a href="#">Japanese</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="bookresult">BOOK</div>
+				<div class="result">
+				<img src="images/item01.png" class="img-responsive">
+				<a href="#"><div class="title">War Games</div></a>
+					<h2><span class="identifier">Author:</span><span class="info"> Levinthal, David</span></h2>
+					<h2><span class="identifier">Date:</span><span class="info"> 2013</span></h2>
+					<h2><span class="identifier">Call#:</span><span class="info"> N7433.4 .P525 W27 2005</span></h2>
+					<h2><span class="identifier">Available:</span><span class="info"> 1</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="bookresult">BOOK</div>
+				<div class="result">
+				<img src="images/item02.png" class="img-responsive">
+				<a href="#"><div class="title">War Dances</div></a>
+					<h2><span class="identifier">Author:</span><span class="info"> Alexie, Sherman</span></h2>
+					<h2><span class="identifier">Date:</span><span class="info"> 2009</span></h2>
+					<h2><span class="identifier">Call#:</span><span class="info"> FICTION Fiction</span></h2>
+					<h2><span class="identifier">Available:</span><span class="info"> 1</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="imageresult">IMAGE</div>
+				<div class="result">
+				<img src="images/item03.png" class="img-responsive">
+				<a href="#"><div class="title">War Triptych</div></a>
+					<h2><span class="identifier">Artist:</span><span class="info"> Dix, Otto</span></h2>
+					<h2><span class="identifier">Date:</span><span class="info"> 1929</span></h2>
+					<h2><span class="identifier">Type:</span><span class="info"> Slide, 35mm color</span></h2>
+					<h2><span class="identifier">Media:</span><span class="info"> jpeg</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="bookresult">BOOK</div>
+				<div class="result">
+				<img src="images/item04.png" class="img-responsive">
+				<a href="#"><div class="title">Vietnam at War</div></a>
+					<h2><span class="identifier">Author:</span><span class="info"> Bradley, Mark</span></h2>
+					<h2><span class="identifier">Date:</span><span class="info"> 2009</span></h2>
+					<h2><span class="identifier">Call#:</span><span class="info">  E-BOOK E-Book</span></h2>
+					<h2><span class="identifier">Available:</span><span class="info"> 1</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="videoresult">VIDEO</div>
+				<div class="result">
+				<img src="images/item06.png" class="img-responsive">
+				<a href="#"><div class="title">The Fog of War</div></a>
+					<h2><span class="identifier">Date:</span><span class="info"> 2004</span></h2>
+					<h2><span class="identifier">Call#:</span><span class="info"> 51523 Circulating DVD Decker Library</span></h2>
+					<h2><span class="identifier">Available:</span><span class="info"> 1</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="bookresult">BOOK</div>
+				<div class="result">
+				<img src="images/item07.png" class="img-responsive">
+				<a href="#"><div class="title">Polish Cold War Neon</div></a>
+					<h2><span class="identifier">Author:</span><span class="info"> Karwińska, Ilona</span></h2>
+					<h2><span class="identifier">Date:</span><span class="info"> 2011</span></h2>
+					<h2><span class="identifier">Call#:</span><span class="info"> NC1002 .S54 K37 2011 Quarto</span></h2>
+					<h2><span class="identifier">Available:</span><span class="info"> 1</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="bookresult">BOOK</div>
+				<div class="result">
+				<img src="images/item08.png" class="img-responsive">
+				<a href="#"><div class="title">Baghdad Blues: A War Diary</div></a>
+					<h2><span class="identifier">Author:</span><span class="info"> Turnley, David C</span></h2>
+					<h2><span class="identifier">Date:</span><span class="info"> 2003</span></h2>
+					<h2><span class="identifier">Call#:</span><span class="info"> DS79.762 .T87 2003 Stacks</span></h2>
+					<h2><span class="identifier">Available:</span><span class="info"> 1</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="videoresult">VIDEO</div>
+				<div class="result">
+				<img src="images/item05.png" class="img-responsive">
+				<a href="#"><div class="title">The War Game Culloden</div></a>
+					<h2><span class="identifier">Date:</span><span class="info"> 2006</span></h2>
+					<h2><span class="identifier">Call#:</span><span class="info"> 51545 Circulating DVD Decker Library</span></h2>
+					<h2><span class="identifier">Available:</span><span class="info"> 1</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="bookresult">BOOK</div>
+				<div class="result">
+				<img src="images/item09.png" class="img-responsive">
+				<a href="#"><div class="title">On Art and War and Terror</div></a>
+					<h2><span class="identifier">Author:</span><span class="info"> Danchev, Alex</span></h2>
+					<h2><span class="identifier">Date:</span><span class="info"> 2011</span></h2>
+					<h2><span class="identifier">Call#:</span><span class="info"> NX650 .W3 D26 2011 Stacks</span></h2>
+					<h2><span class="identifier">Available:</span><span class="info"> 1</span></h2>
+					<button class="sendbutton">Send Info</button>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+
+<footer>
+	<div class="footerbox">
+	Copyright 2013 SirsiDynix - Portfolio Version 4.3 (29670)
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
