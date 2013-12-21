@@ -34,6 +34,7 @@
 	</div>
 	</nav>
 <div class="container">
+<div class="main">
 	<div class="row">
 		<div class="col-xs-12">
 			<div class="search-column">
@@ -52,11 +53,11 @@
 	<div class="col-xs-12">
 		<div class="row">
 		<div class="col-xs-12 col-sm-4 col-md-3">
+			<div class="searchnavheader">LIMIT SEARCH RESULTS</div>
 			<div class="search-column">
 				<div class="row">
 					<div class="col-xs-12">
-						<div class="searchnav">Limit Search Results:</div>
-						<div class="searchnav">MEDIA</div>
+						<h2><div class="navidentifier">Media</div></h2>
 					</div>
 				</div>
 				<div class="row">
@@ -69,21 +70,35 @@
 				<button class="vidbutton">VIDEOS</button>
 				</div>
 				</div>
-				<div class="searchnav">DATE</div>
-				<div class="searchnav">1500 ---- 2013</div>
-				<div class="searchnav">LANGUAGE</div>
-				<div class="scrollbox">
-					<ul>
-						<li><a href="#">English</a></li>
-						<li><a href="#">Spanish</a></li>
-						<li><a href="#">Korean</a></li>
-						<li><a href="#">French</a></li>
-						<li><a href="#">Chinese</a></li>
-						<li><a href="#">German</a></li>
-						<li><a href="#">Japanese</a></li>
-					</ul>
+				<h2><div class="navidentifier">Date:</div></h2>
+				<div class="dateslider">
+					<div class="dateslide" style="float:left">&rsaquo;</div>
+					<div class="dateslide" style="float:right">&lsaquo;</div>
 				</div>
+				<input class="dateinput" name "date input" maxlength="4" value="1658" style="float:left" />
+				<input class="dateinput" name "date input" maxlength="4" value="1975" style="float:right" />
+				<h2><div class="navidentifier" style="clear:both">Language:</div></h2>
+					<div class="scrollbox">
+					<select name="languages" size="5" multiple="multiple">
+						<option value="english">English</option>
+						<option value="spanish">Spanish</option>
+						<option value="Korean">Korean</option>
+						<option value="French">French</option>
+						<option value="Chinese">Chinese</option>
+						<option value="German">German</option>
+						<option value="Japanese">Japanese</option>
+					</select>
+					</div>
 			</div>
+		<div style="text-align:center;">
+		<button class="pagebutton" style="font-family: 'Montserrat', sans-serif;">&lsaquo;</button>
+		<button class="pagebutton">1</button>
+		<button class="pagebutton">2</button>
+		<button class="pagebutton">3</button>
+		<button class="pagebutton">4</button>
+		<button class="pagebutton">5</button>
+		<button class="pagebutton" style="font-family: 'Montserrat', sans-serif;">&rsaquo;</button>
+		</div>
 		</div>
 		<div class="col-xs-12 col-sm-8 col-md-9">
 			<div class="row">
@@ -91,7 +106,7 @@
 				<div class="bookresult">BOOK</div>
 				<div class="result">
 				<img src="images/item01.png" class="img-responsive">
-				<a href="#"><div class="title">War Games</div></a>
+				<a href="item.html"><div class="title">War Games</div></a>
 					<h2><span class="identifier">Author:</span><span class="info"> Levinthal, David</span></h2>
 					<h2><span class="identifier">Date:</span><span class="info"> 2013</span></h2>
 					<h2><span class="identifier">Call#:</span><span class="info"> N7433.4 .P525 W27 2005</span></h2>
@@ -103,7 +118,7 @@
 				<div class="bookresult">BOOK</div>
 				<div class="result">
 				<img src="images/item02.png" class="img-responsive">
-				<a href="#"><div class="title">War Dances</div></a>
+				<a href="item.html"><div class="title">War Dances</div></a>
 					<h2><span class="identifier">Author:</span><span class="info"> Alexie, Sherman</span></h2>
 					<h2><span class="identifier">Date:</span><span class="info"> 2009</span></h2>
 					<h2><span class="identifier">Call#:</span><span class="info"> FICTION Fiction</span></h2>
@@ -115,7 +130,7 @@
 				<div class="bookresult">BOOK</div>
 				<div class="result">
 				<img src="images/item04.png" class="img-responsive">
-				<a href="#"><div class="title">Vietnam at War</div></a>
+				<a href="item.html"><div class="title">Vietnam at War</div></a>
 					<h2><span class="identifier">Author:</span><span class="info"> Bradley, Mark</span></h2>
 					<h2><span class="identifier">Date:</span><span class="info"> 2009</span></h2>
 					<h2><span class="identifier">Call#:</span><span class="info">  E-BOOK E-Book</span></h2>
@@ -127,7 +142,7 @@
 				<div class="bookresult">BOOK</div>
 				<div class="result">
 				<img src="images/item07.png" class="img-responsive">
-				<a href="#"><div class="title">Polish Cold War Neon</div></a>
+				<a href="item.html"><div class="title">Polish Cold War Neon</div></a>
 					<h2><span class="identifier">Author:</span><span class="info"> Karwińska, Ilona</span></h2>
 					<h2><span class="identifier">Date:</span><span class="info"> 2011</span></h2>
 					<h2><span class="identifier">Call#:</span><span class="info"> NC1002 .S54 K37 2011 Quarto</span></h2>
@@ -139,7 +154,7 @@
 				<div class="bookresult">BOOK</div>
 				<div class="result">
 				<img src="images/item08.png" class="img-responsive">
-				<a href="#"><div class="title">Baghdad Blues: A War Diary</div></a>
+				<a href="item.html"><div class="title">Baghdad Blues: A War Diary</div></a>
 					<h2><span class="identifier">Author:</span><span class="info"> Turnley, David C</span></h2>
 					<h2><span class="identifier">Date:</span><span class="info"> 2003</span></h2>
 					<h2><span class="identifier">Call#:</span><span class="info"> DS79.762 .T87 2003 Stacks</span></h2>
@@ -151,7 +166,7 @@
 				<div class="bookresult">BOOK</div>
 				<div class="result">
 				<img src="images/item09.png" class="img-responsive">
-				<a href="#"><div class="title">On Art and War and Terror</div></a>
+				<a href="item.html"><div class="title">On Art and War and Terror</div></a>
 					<h2><span class="identifier">Author:</span><span class="info"> Danchev, Alex</span></h2>
 					<h2><span class="identifier">Date:</span><span class="info"> 2011</span></h2>
 					<h2><span class="identifier">Call#:</span><span class="info"> NX650 .W3 D26 2011 Stacks</span></h2>
